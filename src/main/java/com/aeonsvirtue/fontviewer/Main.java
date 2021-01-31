@@ -40,6 +40,7 @@ public class Main extends javax.swing.JFrame {
         initComponents();
         initFontList();
         jSplitPane1.setDividerLocation(relSplit = 0.5);
+        setTitle("Font Viewer 1.0.0");
     }
 
     /**
