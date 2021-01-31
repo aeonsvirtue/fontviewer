@@ -1,3 +1,7 @@
+[![Build Status](https://cloud.drone.io/api/badges/aeonsvirtue/fontviewer/status.svg)](https://cloud.drone.io/aeonsvirtue/fontviewer) 
+![License](https://img.shields.io/badge/license-MPL2.0-green) 
+![language](https://img.shields.io/badge/language-java-yellow)
+
 # Fontviewer
 
 This is a simple application to view and compare multiple fonts in two different window panes.  
