@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: build
+  image: gradle:jdk15
+  commands:
+  - gradle clean
+  - gradle build
