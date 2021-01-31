@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+description = 'FontViewer'
+    group = 'com.aeonsvirtue'
+
+mainClassName = 'com.aeonsvirtue.fontviewer.Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation     'junit:junit:4.13'
+}
