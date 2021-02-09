@@ -23,3 +23,4 @@ java -jar build/libs/fontviewer-1.0.0.jar
 mvn clean package
 java -jar target/fontviewer-1.0.0.jar
 ```
+
